@@ -1,0 +1,12 @@
+[project]
+name = "ai-cloud-cost-investigator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "strands-agents[anthropic,groq,openai]>=1.57.1",
+    "strands-agents-tools>=0.8.9",
+    "temporalio[strands-agents]>=1.33.0",
+    "python-dotenv>=1.2.3",
+]
